@@ -1,5 +1,7 @@
 <h1 align="center" id="title">Job Hub</h1>
 
+<p align="center"><img src="https://socialify.git.ci/AnujaLd/JobHub/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+
 <p id="description">Developed a Job Management System to facilitate the interaction between employers and candidates. The system should include user registration authentication job posting application submission and a job board.</p>
 
 
