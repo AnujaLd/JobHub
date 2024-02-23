@@ -58,6 +58,10 @@ php artisan db:seed
 php artisan serve
 ```
 
+<p>7. Run the Application and Display the Home Page First of all Click the Register button and Register as a user then redirect the job Portal and logout and then Register as a admin</p>
+
+<p>Happy Coding...</p>
+
   
   
 <h2>💻 Built with</h2>
@@ -92,4 +96,5 @@ Technologies used in the project:
 <img src="https://i.ibb.co/GRmJ3JM/category.png" alt="project-screenshot" width="600" height="300/">
 
 <img src="https://i.ibb.co/4sMz852/CVView.png" alt="project-screenshot" width="600" height="300/">
+
 
