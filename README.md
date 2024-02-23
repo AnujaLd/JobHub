@@ -90,37 +90,43 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
 ```
 
-<p>4. Open a new terminal and Generate the app key</p>
 
-```
-php artisan key:generate
-```
-
-
-<p>5. Open a new terminal and run the following commands:</p>
+<p>4. Open a new terminal and run the following commands:</p>
 
 ```
 composer install     
 npm install        
-npm run dev
+
 ```
 
-<p>6. After installing dependencies Open a new terminal and migrate the database by running:</p>
+<p>5. After installing dependencies Open a new terminal and migrate the database by running:</p>
 
 ```
 php artisan migrate:fresh       
 php artisan db:seed
 ```
 
-<p>7. Start the Artisan Serve to Open a new terminal and run Following Command</p>
+<p>6. Open a new terminal and Generate the app key</p>
+
+```
+php artisan key:generate
+```
+
+<p>7. run project on live serve</p>
+
+```
+npm run dev
+```
+
+<p>8. Start the Artisan Serve to Open a new terminal and run Following Command</p>
 
 ```
 php artisan serve
 ```
 
-<p>8. Run the Application and Display the Home Page First of all Click the Register button and Register as a user then redirect the job Portal and logout and then Register as a admin</p>
+<p>8. Run the Application and Display the Home Page First of all Click the Register button and Register as a client then redirect the job Portal and logout and then Register as a admin</p>
 
-<p>Happy Coding...</p>
+<p>Enjoy & Happy Coding...</p>
 
   
   
