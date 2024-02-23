@@ -22,22 +22,40 @@ Here're some of the project's best features:
 
 <p>1. Clone the repository</p>
 
-<p>2. Navigate to the project directory and set up the .env file. Update the following fields:</p>
+<p>2. open the XAMPP and start the Apache and MySQL then Create the Database using PhpMyAdmin </p>
+
+<p>3. Navigate to the project directory and create the .env file and paste it on the .env</p>
 
 ```
-DB_HOST=127.0.0.1    DB_PORT=3306      DB_DATABASE= your_db_name     DB_USERNAME=root     DB_PASSWORD=
-```
-
-<p>4. 3.Open a new terminal and run the following commands:</p>
-
-```
-1.composer install     2.npm install        3.npm run dev
-```
-
-<p>5. 4.After installing dependencies migrate the database by running:</p>
+APP_URL=http://localhost
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE={your_db_name}
+DB_USERNAME=root
+DB_PASSWORD=
 
 ```
-1.php artisan migrate:fresh       2.php artisan db:seed
+
+<p>4. Open a new terminal and run the following commands:</p>
+
+```
+composer install     
+npm install        
+npm run dev
+```
+
+<p>5. After installing dependencies Open a new terminal and migrate the database by running:</p>
+
+```
+php artisan migrate:fresh       
+php artisan db:seed
+```
+
+<p>6. Start the Artisan Serve to Open a new terminal and run Following Command</p>
+
+```
+php artisan serve
 ```
 
   
@@ -74,3 +92,4 @@ Technologies used in the project:
 <img src="https://i.ibb.co/GRmJ3JM/category.png" alt="project-screenshot" width="600" height="300/">
 
 <img src="https://i.ibb.co/4sMz852/CVView.png" alt="project-screenshot" width="600" height="300/">
+
