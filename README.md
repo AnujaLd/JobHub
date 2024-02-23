@@ -24,7 +24,7 @@ Here're some of the project's best features:
 
 <p>2. open the XAMPP and start the Apache and MySQL then Create the Database using PhpMyAdmin </p>
 
-<p>3. Navigate to the project directory and create the .env file and paste it on the .env & created Database name paste on .env file , DB_DATABASE={your DB name}</p>
+<p>3. Navigate to the project directory and create the .env file and following code copy & paste it on your .env and your created Database name paste on .env file DB_DATABASE={your DB name}</p>
 
 ```
 APP_NAME=Laravel
